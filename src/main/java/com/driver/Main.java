@@ -2,10 +2,10 @@ package com.driver;
 
 public class Main {
     public static void main(String[] args) {
-        RWOnly a = new RWOnly();
+        RWOnly rwOnly = new RWOnly();
 
-        a.setName("Anuja");
-        a.getName();
+        rwOnly.setName("Sai");
+        String name =  rwOnly.getName();
     }
   
 }

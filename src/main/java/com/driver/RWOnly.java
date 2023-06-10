@@ -7,7 +7,7 @@ public class RWOnly {
         this.name = name;
     }
 
-    public void getName(){
-        System.out.println(this.name);
+    public String getName(){
+        return (this.name);
     }
 }
